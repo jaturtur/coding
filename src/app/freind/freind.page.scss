@@ -1,0 +1,31 @@
+
+
+ion-button{
+    --icon-font-size: 10px;
+    width: 120px;
+    height: 30px;
+}
+
+.header{
+    text-align: center;
+}
+
+ion-avatar{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.my-custom-col {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  }
+  .custom-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px; /* Jarak antara item */
+  }
+  
+
+  
