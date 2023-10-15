@@ -40,16 +40,102 @@
   </ion-header>
   <ion-searchbar search-icon="search-circle" placeholder="Search for friends"></ion-searchbar>
   <ion-list>
-    <ion-item *ngFor="let friend of friendList">
+    <ion-item>
       <ion-col size="2">
         <ion-avatar>
-          <img alt="Silhouette of a person's head" [src]="friend.img" />
+          <img alt="Silhouette of a person's head" src="assets/img/park.jpeg" />
         </ion-avatar>
       </ion-col>
-      <ion-col size="8"><p>{{ friend.nama }}</p></ion-col>
+      <ion-col size="8"><p>Parkhyungseok</p></ion-col>
       <ion-col size="4">
-        <ion-button>{{ friend.status }}</ion-button>
+        <ion-button>Add friend</ion-button>
       </ion-col>
     </ion-item>
+  
+    <ion-item>
+      <ion-col size="2">
+        <ion-avatar>
+          <img alt="Silhouette of a person's head" src="assets/img/vasco.jpeg" />
+        </ion-avatar>
+      </ion-col>
+      <ion-col size="8"><p>Vasco_id</p></ion-col>
+      <ion-col size="4">
+        <ion-button>Add friend</ion-button>
+      </ion-col>
+    </ion-item>
+
+    <ion-item>
+      <ion-col size="2">
+        <ion-avatar>
+          <img alt="Silhouette of a person's head" src="assets/img/seojun.jpeg" />
+        </ion-avatar>
+      </ion-col>
+      <ion-col size="8"><p>Han_Seojun</p></ion-col>
+      <ion-col size="4">
+        <ion-button>Accept</ion-button>
+      </ion-col>
+    </ion-item>
+
+    <ion-item>
+      <ion-col size="2">
+        <ion-avatar>
+          <img alt="Silhouette of a person's head" src="assets/img/seo.jpeg" />
+        </ion-avatar>
+      </ion-col>
+      <ion-col size="8"><p>Lee_Suho</p></ion-col>
+      <ion-col size="4">
+        <ion-button>Accept</ion-button>
+      </ion-col>
+    </ion-item>
+
+    <ion-item>
+      <ion-col size="2">
+        <ion-avatar>
+          <img alt="Silhouette of a person's head" src="assets/img/toro.jpeg" />
+        </ion-avatar>
+      </ion-col>
+      <ion-col size="8"><p>toro_M</p></ion-col>
+      <ion-col size="4">
+        <ion-button>Accept</ion-button>
+      </ion-col>
+    </ion-item>
+
+    <ion-item>
+      <ion-col size="2">
+        <ion-avatar>
+          <img alt="Silhouette of a person's head" src="assets/img/jang.jpeg" />
+        </ion-avatar>
+      </ion-col>
+      <ion-col size="8"><p>janghyun_anak_satu</p></ion-col>
+      <ion-col size="4">
+        <ion-button>unfriend</ion-button>
+      </ion-col>
+    </ion-item>
+
+    <ion-item>
+      <ion-col size="2">
+        <ion-avatar>
+          <img alt="Silhouette of a person's head" src="assets/img/sho.jpeg" />
+        </ion-avatar>
+      </ion-col>
+      <ion-col size="8"><p>sho_sayangibu</p></ion-col>
+      <ion-col size="4">
+        <ion-button>Add friend</ion-button>
+      </ion-col>
+    </ion-item>
+
+    <ion-item>
+      <ion-col size="2">
+        <ion-avatar>
+          <img alt="Silhouette of a person's head" src="assets/img/dg.jpeg" />
+        </ion-avatar>
+      </ion-col>
+      <ion-col size="8"><p>dg_papanatas</p></ion-col>
+      <ion-col size="4">
+        <ion-button>Accept</ion-button>
+      </ion-col>
+    </ion-item>
+
   </ion-list>
+  
 </ion-content>
